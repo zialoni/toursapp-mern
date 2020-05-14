@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
 mongoose.connect(
-  "mongodb+srv://zia:zia123@zia-123-6nro8.mongodb.net/toursz?retryWrites=true&w=majority",
+  "mongodb+srv://@zia-6nro8.mongodb.net/toursz?retryWrites=true&w=majority",
   { useNewUrlParser: true, useCreateIndex: true },
   (req, res) => {
     console.log("db is connected");
